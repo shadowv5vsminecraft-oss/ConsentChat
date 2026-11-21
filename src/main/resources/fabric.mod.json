@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "consentchat",
+  "version": "${version}",
+  "name": "ConsentChat - Privacy Scope",
+  "description": "Client-side privacy scope selector. Uses only vanilla chat settings. Never strips signatures, never hides Mojang dialogs/warnings, never sends telemetry.",
+  "authors": [
+    "Shadow"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.shadow.consentchat.ConsentChat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "0.166.2+26.3"
+  }
+}
